@@ -22,7 +22,11 @@
  		<constructor-arg ref="myFortuneService" />
  	</bean>
     
-	
+	<bean id="myCricketCoach"
+		class="com.klam.springdemo.CricketCoach">
+		<!-- Setup setter injection -->
+		<property name="fortuneService" ref="myFortuneService" ></property>
+	</bean>
 </beans>
 
 

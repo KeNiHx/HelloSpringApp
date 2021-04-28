@@ -26,6 +26,11 @@
 		class="com.klam.springdemo.CricketCoach">
 		<!-- Setup setter injection -->
 		<property name="fortuneService" ref="myFortuneService" ></property>
+		
+		<!-- inject literal values -->
+		<property name="emailAddress" value="thebestcoach@email.com" ></property>
+		<property name="team" value="Sunrisers Hyderabad" ></property>
+		
 	</bean>
 </beans>
 

@@ -20,6 +20,7 @@ public class BeanScopeDemoApp {
 		//print the results
 		System.out.println("\nPointing to the same object: " + result);
 		
+		//with the prototype scope a new reference is created for each object
 		System.out.println("\nMemory location for theCoach: " + theCoach);
 		System.out.println("\nMemory location for alpha: " + alphaCoach + "\n");
 		

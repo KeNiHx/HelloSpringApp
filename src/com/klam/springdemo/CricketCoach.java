@@ -10,7 +10,7 @@ public class CricketCoach implements Coach {
 	
 	//create a no-arg constructor
 	public CricketCoach() {
-		System.out.println("CricketCoach: inside no-arg constructor");
+		//System.out.println("CricketCoach: inside no-arg constructor");
 		
 	}		
 	
@@ -22,14 +22,14 @@ public class CricketCoach implements Coach {
 
 
 	public void setEmailAddress(String emailAddress) {
-		System.out.print("CricketCoach: inside setter method -setEmailAddress ");
+		//System.out.print("CricketCoach: inside setter method -setEmailAddress ");
 		this.emailAddress = emailAddress;
 	}
 
 
 
 	public String getTeam() {
-		System.out.print("CricketCoach: inside setter method -setTeam");
+		//System.out.print("CricketCoach: inside setter method -setTeam");
 		return team;
 	}
 
@@ -43,7 +43,7 @@ public class CricketCoach implements Coach {
 
 	// our setter method 
 	public void setFortuneService(FortuneService fortuneService) {
-		System.out.println("CricketCoach: inside setter method - setFortuneService");
+		//System.out.println("CricketCoach: inside setter method - setFortuneService");
 		this.fortuneService = fortuneService;
 	}
 
